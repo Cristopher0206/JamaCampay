@@ -14,19 +14,18 @@
     text-align: center;
     margin: auto;
     display: inline-block;
-    position: relative;
+    /*position: relative;
     left: 32%;
-    top: 4px;
+    top: 4px;*/
 }
 .conoceMas{
     color: #68391a;
     text-decoration: none;
     text-align: center;
     display: inline-block;
-    margin: auto;
     position: relative;
-    left: 32%;
-    top: 4px;
+    left: 2px;
+    top: 1px;
 }
 div{
     /*background-color: coral;*/
