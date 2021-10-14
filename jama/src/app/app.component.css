@@ -75,8 +75,6 @@ ul, ol {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    display: inline-block;
-    clear: both;
 }
 .cajaPadre1{
     background-color: crimson; 
@@ -94,10 +92,6 @@ ul, ol {
     padding-right: 12.5px;
     text-align: justify;
     vertical-align: middle;
-    clear: both;
-    position: absolute;
-    top: 62.5%;
-    left: 50px;
 }
 .cuadroBusqueda{
     background-color: rgb(85, 45, 12); 
