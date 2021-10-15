@@ -15,44 +15,29 @@
     </div>
     <a href="#" class="conoceMas">Conoce Más</a>
   </div>
-  <!--div class="container">
-    <div class="row">
-      <div class="col border">
-        1 of 3
-      </div>
-      <div class="col-6 border">
-        2 of 3 (wider)
-      </div>
-      <div class="col border">
-        3 of 3
-      </div>
-    </div>
-    <div class="row">
-      <div class="col border">
-        1 of 3
-      </div>
-      <div class="col-5 border">
-        2 of 3 (wider)
-      </div>
-      <div class="col border">
-        3 of 3
-      </div>
-    </div>
-  </div-->
     <div class="container-fluid">
-      <div class="row" style="height: auto;">
+      <div class="row">
         <img src="jamaCampay.png" 
           alt="Jama image"
-          class="col-sm-12 col-md-12 col-lg-6 col-xl-5">
-        <div class="btn-group col-sm-12 col-md-12 col-lg-6 col-xl-7" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-primary" style="font-size: 120%; background: none; border: none; color: #4d2a14">Real State</button>
-            <button type="button" class="btn btn-primary" style="font-size: 120%; background: none; border: none; color: #4d2a14">Resort</button>
-            <button type="button" class="btn btn-primary" style="font-size: 120%; background: none; border: none; color: #4d2a14">Experience</button>
-            <button type="button" class="btn btn-primary" style="font-size: 120%; background: none; border: none; color: #4d2a14;">Events</button>
-            <button type="button" class="btn btn-primary" style="font-size: 120%; background: none; border: none; color: #4d2a14">About Us</button>
-            <button type="button" class="btn btn-primary" style="font-size: 120%; background: none; border: none; color: #4d2a14">Idiom</button>
-            <button type="button" class="btn btn-primary" style="font-size: 120%; background: none; border: none; color: #4d2a14">Book Now</button>
-          </div>
+          class="col-sm-12 col-md-6 col-lg-6 col-xl-5">
+
+        <!--nav class="nav nav-pills flex-column flex-sm-row col-sm-12 col-md-6 col-lg-6 col-xl-7">
+          <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#">Active</a>
+          <a class="flex-sm-fill text-sm-center nav-link" href="#">Longer nav link</a>
+          <a class="flex-sm-fill text-sm-center nav-link" href="#">Link</a>
+          <a class="flex-sm-fill text-sm-center nav-link disabled">Disabled</a>
+        </nav-->
+
+        <nav class="nav nav-pills nav-fill col-sm-12 col-md-6 col-lg-6 col-xl-7">
+          <a class="nav-link" href="#" style="font-size: 115%; background:none; border: none; color: #4d2a14;">Real State</a>
+          <a class="nav-link" href="#" style="font-size: 115%; background: none; border: none; color: #4d2a14">Resort</a>
+          <a class="nav-link" href="#" style="font-size: 115%; background: none; border: none; color: #4d2a14">Experience</a>
+          <a class="nav-link" href="#" style="font-size: 115%; background: none; border: none; color: #4d2a14">Events</a>
+          <a class="nav-link" href="#" style="font-size: 115%; background: none; border: none; color: #4d2a14">About Us</a>
+          <a class="nav-link" href="#" style="font-size: 115%; background: none; border: none; color: #4d2a14">Idioma</a>
+          <a class="nav-link" href="#" style="font-size: 115%; background: none; border: none; color: #4d2a14">Book Now</a>
+        </nav>
+        
       </div>
     </div>
 
@@ -107,35 +92,47 @@
 
 
 
-
-
-     
-    <div class="cuadroBusqueda">
-        <div class="avaHotel">
-            <b>AVAILABILITY</b> <br>
-            AT DE HOTEL
+  <div class="container-fluid">   
+    <div class="row cuadroBusqueda" style="text-align: center;">
+        <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 avaHotel">
+            <b>AVAILABILITY</b><br>
+            AT THE HOTEL
         </div>
-        <div class="lineaDivisoria1"></div>
-        <div class="busqueda">
-            <div class="cuadroSolo calendario1">
-                <p class="textoBusqueda">Check in</p>
-                <input type="text" placeholder="Calendario" class="cuadroTexto">
-            </div>
-            <div class="cuadroSolo calendario2">
-                <p class="textoBusqueda">Check out</p>
-                <input type="text" placeholder="Calendario" class="cuadroTexto">
-            </div>
-            <div class="cuadroSolo familia">
-                <p class="textoBusqueda">Detalle de huéspedes</p>
-                <input type="text" placeholder="Familia" class="cuadroTexto">
-            </div>
-            <div class="cuadroSolo descuento">
-                <p class="textoBusqueda">Código de Descuento</p>
-                <input type="text" placeholder="Descuento" class="cuadroTexto">
-            </div>
-            <input type="submit" name="BUSCAR" value="BUSCAR" class="buscar">
+        <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2" style="text-align: left;">
+          <label for="exampleFormControlInput1" class="form-label textoCuadros">Check in</label>
+          <div class="input-group flex-nowrap">
+            <span class="input-group-text" id="addon-wrapping">?</span>
+            <input type="text" class="form-control" placeholder="Check in" aria-label="Username" aria-describedby="addon-wrapping">
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2" style="text-align: left;">
+          <label for="exampleFormControlInput1" class="form-label textoCuadros">Check out</label>
+          <div class="input-group flex-nowrap">
+            <span class="input-group-text" id="addon-wrapping">?</span>
+            <input type="text" class="form-control" placeholder="Check in" aria-label="Username" aria-describedby="addon-wrapping">
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2" style="text-align: left;">
+          <label for="exampleFormControlInput1" class="form-label textoCuadros">Detalle de Huéspedes</label>
+          <div class="input-group flex-nowrap">
+            <span class="input-group-text" id="addon-wrapping">?</span>
+            <input type="text" class="form-control" placeholder="Check in" aria-label="Username" aria-describedby="addon-wrapping">
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2" style="text-align: left;">
+          <label for="exampleFormControlInput1" class="form-label textoCuadros">Código de descuento</label>
+          <div class="input-group flex-nowrap">
+            <span class="input-group-text" id="addon-wrapping">?</span>
+            <input type="text" class="form-control" placeholder="Check in" aria-label="Username" aria-describedby="addon-wrapping">
+          </div>
+        </div>
+        <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1" style="text-align: center;">
+          <button class="btn botonBuscar" type="submit" style="margin-top: 30px;">BUSCAR</button>
         </div>
     </div>
+  </div>
+
+
 
     <div class="homes">
         <img src="D:\GitHub\JamaCampay\jama\src\assets\BANNER-PEQUEÑO-1.png" 
