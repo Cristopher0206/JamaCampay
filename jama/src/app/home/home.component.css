@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.cuadroConoceMas{
+    background-color: #fc7f2d;
+    height: 27.5px;
+    width: 100%;
+    border: none;
+}
+.textoConoceMas{
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    /*position: relative;
+    left: 32%;
+    top: 4px;*/
+}
+.conoceMas{
+    color: #68391a;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: 2px;
+    top: 1px;
+}
+div{
+    /*background-color: coral;*/
+    width: auto;
+    height: auto;
+    /*margin-bottom: 20px;*/
+}
+.menu{
+    /*background-color: cornflowerblue;*/
+    width: auto;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    left: 32.5%; /*31*/
+    bottom: 0;
+    right: 0;
+}
+.jamaImage{
+    width: 30.5%;
+}
+.header{
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+ul, ol {
+    list-style: none;
+}
+.nav li a{
+    /*background-color: #af9b9b;*/
+    color: #ce630c;
+    font-size: 135%;
+    text-decoration: none;
+    padding: 20px 30px;
+    margin-top: 24px;
+    /*margin-right: 40px;*/
+    display: inline-block;
+    position: relative;
+}
+.nav > li{
+    float: left;
+    vertical-align: middle;
+}
+.habitacionesDeFondo{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.cajaPadre1{
+    background-color: crimson; 
+    height: 600px;
+    position: relative;
+}
+.descripcionRapida{
+    color: #fff;
+    background-color: rgba(238, 134, 16, 0.493);
+    height: auto;
+    width: 45%;
+    padding-top: 12.5px;
+    padding-bottom: 20px;
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+    text-align: justify;
+    vertical-align: middle;
+}
+.cuadroBusqueda{
+    background-color: rgb(85, 45, 12); 
+    width: 100%; 
+    height: 100px;
+    position: relative;
+}
+.avaHotel{
+    color: #FFFFFF;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.lineaDivisoria1{
+    height: 60%; 
+    width: 3px; 
+    background-color: #FFFFFF; 
+    position: absolute;
+    top: 20%;
+    left: 17.75%;
+}
+.busqueda{ 
+    background-color: lightcoral; 
+    vertical-align: middle;
+    position: relative;
+    left: 18.75%;
+    top: 17.5%;
+}
+.cuadroSolo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.calendario1{
+    position: absolute;
+    left: -0.20%;
+}
+.calendario2{
+    position: absolute;
+    left: 16.80%;
+}
+.familia{
+    position: absolute;
+    left: 33.80%;
+}
+.descuento{
+    position: absolute;
+    left: 50.80%;
+}
+.textoBusqueda{
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-bottom: 2.5px;
+}
+.cuadroTexto{
+    width: 250px;
+    height: 37.5px;
+}
+.buscar{
+    width: 85px;
+    height: 42px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #ce630c;
+    outline: none;
+    position: absolute;
+    left: 67.80%;
+    top: 21px;
+}
+.homes{
+    background-color: rgb(224, 208, 187);
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.imagenHomes{
+    width: 350px;
+    height: 100%;
+    float: left;
+    margin-left: 30px;
+    margin-top: -25px;
+}
+.titulos{
+    color: darkorange;
+    position: relative;
+    left: 2.5%;
+    top: 12.5%;
+}
+.parrafos{
+    width: 90.5%;
+    color:rgb(90, 54, 11);
+    position: relative;
+    left: 2.5%;
+    top: 17%;
+}
+.botonLearnMore{
+    width: 150px;
+    height: 42px;
+    text-decoration: none;
+    font: italic;
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: rgb(90, 54, 11);
+    outline: none;
+    border-radius: 7.5px;
+    position: absolute;
+    left: 67.80%;
+    top: 21px;
+    /*width: 60px;
+    height: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ce630c;
+    background-color: rgb(85, 45, 12);;
+    border-radius: 5px;
+    outline: none;
+    clear: both;
+    position: absolute;*/
+
+}
+.learnMore{
+    color: #ffffff;
+    position: relative;
+}
